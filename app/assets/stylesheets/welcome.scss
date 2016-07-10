@@ -44,6 +44,21 @@ p.contact:hover
      cursor:pointer;  
 }
 
+p.blog {
+  color: #bbb8bc ; 
+  font-family: 'Source Code Pro', 'sans-serif', 'serif';
+  font-size: 15px;
+  text-decoration: none;
+  src: "http://use.edgefonts.net/source-code-pro.js";
+} 
+
+p.blog:hover 
+{
+     color:#bbb8c; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 a:link,a:hover,a:activer {
   color: #bbb8bc ; 
   font-family: 'Source Code Pro', 'sans-serif', 'serif';
