@@ -1,0 +1,55 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+div {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+header.my_name {
+  color: #C70039 ;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 300;
+
+  
+  }
+
+p.my_info {
+	color: #bbb8bc ; 
+	font-family: 'Source Code Pro', 'sans-serif', 'serif';
+	font-size: 15px;
+	src: "http://use.edgefonts.net/source-code-pro.js";
+}
+
+p.contact {
+	color: #bbb8bc ; 
+	font-family: 'Source Code Pro', 'sans-serif', 'serif';
+	font-size: 15px;
+  text-decoration: none;
+	src: "http://use.edgefonts.net/source-code-pro.js";
+} 
+
+p.contact:hover 
+{
+     color:#bbb8c; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+a:link,a:hover,a:activer {
+  color: #bbb8bc ; 
+  font-family: 'Source Code Pro', 'sans-serif', 'serif';
+  font-size: 15px;
+  text-decoration: none;
+  src: "http://use.edgefonts.net/source-code-pro.js";
+}
+
+
