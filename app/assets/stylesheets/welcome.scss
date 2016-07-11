@@ -16,7 +16,7 @@ div {
 header.my_name {
   color: #C70039 ;
   font-family: Lato;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 300;
 
   
@@ -37,12 +37,7 @@ p.contact {
 	src: "http://use.edgefonts.net/source-code-pro.js";
 } 
 
-p.contact:hover 
-{
-     color:#bbb8c; 
-     text-decoration:none; 
-     cursor:pointer;  
-}
+
 
 p.blog {
   color: #bbb8bc ; 
@@ -59,12 +54,22 @@ p.blog:hover
      cursor:pointer;  
 }
 
-a:link,a:hover,a:activer {
-  color: #bbb8bc ; 
-  font-family: 'Source Code Pro', 'sans-serif', 'serif';
-  font-size: 15px;
-  text-decoration: none;
-  src: "http://use.edgefonts.net/source-code-pro.js";
+a:link {
+  color: #bbb8bc;
+}
+
+a:visited {
+    color: #bbb8bc;
+}
+
+
+a:hover {
+    color: e6e5e6;
+}
+
+
+a:active {
+    color: blue;
 }
 
 
