@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Talk.js Example</title>
+    <script src="talk.js"></script>
+    <script>
+    
+  var pb = new Pandorabot("aiaas.pandorabots.com", "1409612849381", "ge0bot", "23bc83870bfb2779aa91ece25601e1e1"); // These should match the creds with which you created the bot
+  function doTalk() {
+    var input = document.getElementById("yousay").value;
+    document.getElementById("yousay").value = "";
+    pb.talk(input, function(data) {
+      var response = data["responses"];
+      document.getElementById("response").innerHTML = response;
+      console.log(response);
+    });
+  }
+</script>
+  </head>
+  <div><body>
+  	<center>
+    <h1 class= "geobottitle">Geobot<font color=#bbb8bc style="font-size:15px" >alpha</font></h1>
+    <form id="talk" class="boxedin" onsubmit="return false;">
+      <b class= "yousay">Type the name of any country:</b> <input id="yousay" name="input" size="50" onkeydown="if (event.keyCode == 13) { doTalk(); }"/>
+      <br>
+      <br/>
+      <input class"button" id="talkbutton" type="button" value="talk" onclick="doTalk()"/> 
+    </form>
+    <br>
+    <p class= "response" id="response"></p>
+  </body></center>
+</html></div>
+
+<footer>david ciaffonis
+</footer>
+
+
+
+
+
+

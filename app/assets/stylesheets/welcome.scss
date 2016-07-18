@@ -72,5 +72,32 @@ a:active {
     color: blue;
 }
 
+h1.geobottitle {
+  color: #03a9f4 ; 
+  font-family: 'Lato';
+  font-size: 40px;
+  src: "http://use.edgefonts.net/source-code-pro.js";
+} 
 
+b.yousay {
+  color: #bbb8bc ; 
+  font-family: 'Source Code Pro', 'sans-serif', 'serif';
+  font-size: 15px;
+  text-decoration: none;
+  src: "http://use.edgefonts.net/source-code-pro.js";
+} 
+
+p.response {
+  color: #fffff ; 
+  font-family: 'Source Code Pro', 'sans-serif', 'serif';
+  font-size: 25px;
+  text-decoration: none;
+  src: "http://use.edgefonts.net/source-code-pro.js";
+} 
+
+input.button {
+font-family: 'Source Code Pro', 'sans-serif', 'serif';
+  font-size: 15px;
+  text-decoration: none;
+}
 

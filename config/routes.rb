@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'welcome/index'
-  get '/blog', to: 'welcome#contact', as: :contact
+  get '/blog', to: 'welcome#contact', as: :contact 
+  get '/geobot', to: 'welcome#geobot', as: :geobot
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
