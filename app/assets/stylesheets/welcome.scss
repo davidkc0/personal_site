@@ -5,7 +5,7 @@
 
 div {
     height: 200px;
-    width: 400px;
+    width: 460px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -16,7 +16,7 @@ div {
 header.my_name {
   color: #C70039 ;
   font-family: Lato;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 300;
 
   
@@ -25,16 +25,17 @@ header.my_name {
 p.my_info {
 	color: #bbb8bc ; 
 	font-family: 'Source Code Pro', 'sans-serif', 'serif';
-	font-size: 15px;
+	font-size: 16px;
 	src: "http://use.edgefonts.net/source-code-pro.js";
 }
 
 p.contact {
 	color: #bbb8bc ; 
 	font-family: 'Source Code Pro', 'sans-serif', 'serif';
-	font-size: 15px;
+	font-size: 16px;
   text-decoration: none;
 	src: "http://use.edgefonts.net/source-code-pro.js";
+
 } 
 
 
@@ -42,7 +43,7 @@ p.contact {
 p.blog {
   color: #bbb8bc ; 
   font-family: 'Source Code Pro', 'sans-serif', 'serif';
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   src: "http://use.edgefonts.net/source-code-pro.js";
 } 
@@ -75,14 +76,14 @@ a:active {
 h1.geobottitle {
   color: #03a9f4 ; 
   font-family: 'Lato';
-  font-size: 40px;
+  font-size: 50px;
   src: "http://use.edgefonts.net/source-code-pro.js";
 } 
 
 b.yousay {
-  color: #bbb8bc ; 
+  color: #000000 ; 
   font-family: 'Source Code Pro', 'sans-serif', 'serif';
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   src: "http://use.edgefonts.net/source-code-pro.js";
 } 
@@ -90,14 +91,14 @@ b.yousay {
 p.response {
   color: #fffff ; 
   font-family: 'Source Code Pro', 'sans-serif', 'serif';
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   src: "http://use.edgefonts.net/source-code-pro.js";
 } 
 
 input.button {
 font-family: 'Source Code Pro', 'sans-serif', 'serif';
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
 }
 
