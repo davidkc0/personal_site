@@ -1,0 +1,44 @@
+<link rel="stylesheet" type="text/css" href="/assets/blog_index.scss">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato"> 
+<% provide(:page_title, "blog")%> 
+
+  <div class="main">
+    <div class="box">
+    <header><a href="/" class="page_title" type="button" data-hover="<back" data-active="I'M ACTIVE"><span>blog</span></a></header> 
+    <p class="name">by david ciaffoni</p>
+    <br>
+    <% @posts.each do |post| %>
+      <h2 class="blog_title"><%= post.title.html_safe %></h2>
+      <p class="date"><%=  post.created_at.strftime("%b %d, %Y" ) %></p>
+      <br>
+      <p class="body"><%= post.body.html_safe %></p> 
+          <%end%>
+      <!-- <p> <%= link_to 'New Post', new_post_path %></p> -->
+      <br>
+      <br> 
+
+      <center><p class="footer">david ciaffoni 2016</p></center>
+      </div>
+  </div>
+
+
+<!-- <p id="notice"><%= notice %></p>
+<h1>Listing Posts</h1>
+
+  <div class="main">
+    <div class="box">
+     
+          <% @posts.each do |post| %>
+              <h2><%= post.title %></h2>
+              <br>
+              <p><%= post.body %></p>
+              <p><%= link_to 'Show', post %></p>
+              <p><%= link_to 'Edit', edit_post_path(post) %></p>
+              <p><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+          <% end %>
+    </div>
+  </div>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %> -->

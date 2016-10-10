@@ -1,0 +1,22 @@
+<% provide(:page_title, @post.title)%>
+<link rel="stylesheet" type="text/css" href="assets/blog_index.css">
+<p id="notice"><%= notice %></p>
+
+<div class="main">
+	<div class="box"></div>
+	<center>
+		<h1>
+	  		<%= @post.title.html_safe %>
+		</h1>
+	</center>
+
+    	<br>
+	<p>
+		<%= @post.body.html_safe %>
+		
+	</p>
+	</div>
+</div>
+
+ <%= link_to 'Edit', edit_post_path(@post) %> | 
+<%= link_to 'Back', posts_path %>
