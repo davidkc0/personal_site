@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   resources :posts
   get 'welcome/index'
   get '/blog', to: 'posts#index', as: :contact 
+  get '/portfolio', to: 'portfolio#portfolio'
   get '/geobot', to: 'welcome#geobot', as: :geobot
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
