@@ -1,3 +1,209 @@
 // Place all the styles related to the portfolio controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main-portfollio {
+  width: 900px;
+  margin: auto;
+} 
+
+.box-portfollio {
+  width: calc(100% - 2em);
+  height:200px;
+ 
+  margin: 1em;
+  float: left;
+  
+}  
+
+header {
+	text-align: center;
+}
+
+.name {
+	text-align: center; 
+	font-family: 'Lato', 'sans-serif';
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* .button */
+
+.page_title {
+    display: inline-block;
+    position: relative;
+    margin: 1em;
+    padding: 0.67em;
+    border: 2px solid #FFF;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 4em;
+    outline: none;
+    color: #1a0000;
+    background: transparent;
+    font-family: 'Lato', 'sans-serif';
+    /*font-family: 'Source Code Pro', 'sans-serif', 'serif';
+    src: "http://use.edgefonts.net/source-code-pro.js";*/
+
+    
+} 
+
+
+.page_title span {
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.page_title:before,
+.page_title:after {
+    content: '';
+    position: absolute;
+    top: 0.67em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: .4s,opacity .6s;
+    -moz-transition: .4s,opacity .6s;
+    -o-transition: .4s,opacity .6s;
+    transition: .4s,opacity .6s;
+}
+
+/* :before */
+
+.page_title:before {
+    content: attr(data-hover);
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+}
+
+/* :after */
+
+.page_title:after {
+    content: attr(data-active);
+    -webkit-transform: translate(150%,0);
+    -moz-transform: translate(150%,0);
+    -ms-transform: translate(150%,0);
+    -o-transform: translate(150%,0);
+    transform: translate(150%,0);
+}
+
+/* Span on :hover and :active */
+
+.page_title:hover span,
+.page_title:active span {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/*  
+    We show :before pseudo-element on :hover 
+    and :after pseudo-element on :active 
+*/
+
+.page_title:hover:before,
+.page_title:active:after {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    transition-delay: .4s;
+}
+
+/* 
+  We hide :before pseudo-element on :active
+*/
+
+.page_title:active:before {
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+} 
+
+
+.page_title:link {
+  color: #bbb8bc;
+  text-decoration: none;
+
+}
+
+.page_title:visited {
+    color: #bbb8bc;
+}
+
+
+.page_title:hover {
+    color: #bbb8bc;
+    text-decoration: none;
+}
+
+
+.page_title:active {
+    color: #bbb8bc;
+}
+
+ 
+
+.blog_title {
+	color: #1a0000 ; 
+	font-family: 'Source Code Pro', 'sans-serif', 'serif';
+	font-size: 2em;
+  text-decoration: none;
+	src: "http://use.edgefonts.net/source-code-pro.js";
+
+}  
+
+.date {
+
+	color: #bbb8bc ; 
+	font-family: 'Source Code Pro', 'sans-serif', 'serif';
+	font-size: 1em;
+  	text-decoration: none;
+	src: "http://use.edgefonts.net/source-code-pro.js";
+
+}   
+
+.body {
+	
+
+} 
+
+.footer {
+	color: #1a0000 ; 
+	font-family: 'Source Code Pro', 'sans-serif', 'serif';
+	font-size: 10px;
+  	text-decoration: none;
+	src: "http://use.edgefonts.net/source-code-pro.js";
+}
