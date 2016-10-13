@@ -189,7 +189,7 @@ inv 		= Inverse Behaver of buttons
 .hb-sm {
 	line-height: 37px;
 	font-size: 37px;
-	margin: 18.5px 0px; /* Original output, margin 0 of the button */ 
+	margin: 18.5px 50px; /* Original output, margin 0 of the button */ 
 	/*margin: 33.5px 15px;*/ /* New output, margin 15px of the button,  18.5 + 15 = 33.5 */ 
 	
 }
@@ -239,7 +239,7 @@ inv 		= Inverse Behaver of buttons
 	margin: 15px;
 }
 .hb-sm-margin {
-	margin: 15px;
+	margin: 50px;
 }
 .hb-xs-margin {
 	margin: 15px;
