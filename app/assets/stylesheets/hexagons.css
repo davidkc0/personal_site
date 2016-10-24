@@ -480,15 +480,15 @@ inv 		= Inverse Behaver of buttons
 .hb-youtube,
 .hb-youtube:before,
 .hb-youtube:after {
-	background: #cc181e;
-	border-color: #cc181e;
+	background: #373a3c;
+	border-color: #373a3c;
 	color: #ffffff;
 }
 .hb-youtube:hover,
 .hb-youtube:hover:before ,
 .hb-youtube:hover:after {
 	background:transparent;
-	border-color: #cc181e;
+	border-color: #373a3c;
 	color: #cc181e;
 }
 
@@ -497,14 +497,14 @@ inv 		= Inverse Behaver of buttons
 .hb-youtube-inv:after,
 .hb-youtube-inv:before {
 	background:transparent;
-	border-color: #cc181e;
+	border-color: #373a3c;
 	color: #cc181e;
 }
 .hb-youtube-inv:hover,
 .hb-youtube-inv:hover:after,
 .hb-youtube-inv:hover:before {
-	background: #cc181e;
-	border-color: #cc181e;
+	background: #373a3c;
+	border-color: #373a3c;
 	color: #ffffff;
 }
 /* 6.4 - Youtube End
@@ -512,36 +512,39 @@ inv 		= Inverse Behaver of buttons
 
 /* 6.5 - Linkedin
 -------------------------------------------------*/
-.hb-linkedin,
-.hb-linkedin:before,
-.hb-linkedin:after  {
-	background: #373a3c;;
-	border-color: #373a3c;;
-	color: #ffffff;
-}
-.hb-linkedin:hover,
-.hb-linkedin:hover:before,
-.hb-linkedin:hover:after {
-	background:transparent;
-	border-color: #0077b5;
-	color: #0077b5;
-}
-
-/* linkedin inverts */
 .hb-linkedin-inv,
-.hb-linkedin-inv:after,
-.hb-linkedin-inv:before{
-	background:transparent;
-	border-color: #0077b5;
-	color: #0077b5;
+.hb-linkedin-inv:before ,
+.hb-linkedin-inv:after {
+	background: #373a3c !important;
+	border-color: #373a3c !important;
+	color: #ffffff !important;
+}
+ 
+.hb-linkedin-inv:hover,
+.hb-linkedin-inv:hover:before ,
+.hb-linkedin-inv:hover:after {
+	background:transparent !important;
+	border-color: #373a3c !important;
+	color: #373a3c !important;
+}
+ 
+/* github inverts */
+.hb-linkedin-inv,
+.hb-linkedin-inv:after ,
+.hb-linkedin-inv:before {
+	background:transparent !important;
+	border-color: #373a3c !important;
+	color: #373a3c !important;
 }
 .hb-linkedin-inv:hover,
-.hb-linkedin-inv:hover:after,
+.hb-linkedin-inv:hover:after ,
 .hb-linkedin-inv:hover:before {
-	background: #0077b5;
-	border-color: #0077b5;
-	color: #ffffff;
+	background: #373a3c !important;
+	border-color: #373a3c !important;
+	color: #ffffff !important;
 }
+
+
 
 /* 6.5 - Linkedin End
 -------------------------------------------------*/
