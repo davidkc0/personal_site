@@ -424,15 +424,15 @@ inv 		= Inverse Behaver of buttons
 .hb-twitter-inv:after,
 .hb-twitter-inv:before {
 	background: transparent;
-	border-color: #55ACEE;
-	color: #55ACEE;
+	border-color: #bbb8bc !important;
+	color: #bbb8bc !important;
 }
 .hb-twitter-inv:hover,
 .hb-twitter-inv:hover:after,
 .hb-twitter-inv:hover:before {
-	background: #55ACEE;
-	border-color: #55ACEE;
-	color: #ffffff;
+	background: #bbb8bc !important;
+	border-color: #bbb8bc !important;
+	color: #ffffff !important;
 }
 /* 6.2 - Twitter End
 -------------------------------------------------*/
@@ -533,14 +533,14 @@ inv 		= Inverse Behaver of buttons
 .hb-linkedin-inv:after ,
 .hb-linkedin-inv:before {
 	background:transparent !important;
-	border-color: #373a3c !important;
-	color: #373a3c !important;
+	border-color: #bbb8bc !important;
+	color: #bbb8bc !important;
 }
 .hb-linkedin-inv:hover,
 .hb-linkedin-inv:hover:after ,
 .hb-linkedin-inv:hover:before {
-	background: #373a3c !important;
-	border-color: #373a3c !important;
+	background: #bbb8bc !important;
+	border-color: #bbb8bc !important;
 	color: #ffffff !important;
 }
 
@@ -730,15 +730,15 @@ inv 		= Inverse Behaver of buttons
 .hb-github-inv:after ,
 .hb-github-inv:before {
 	background:transparent;
-	border-color: #373a3c;
-	color: #373a3c;
+	border-color: #bbb8bc !important;
+	color: #bbb8bc !important;
 }
 .hb-github-inv:hover,
 .hb-github-inv:hover:after ,
 .hb-github-inv:hover:before {
-	background: #373a3c;
-	border-color: #373a3c;
-	color: #ffffff;
+	background: #bbb8bc !important;
+	border-color: #bbb8bc !important;
+	color: #ffffff !important;
 }
  
 /* 6.10 - Github End

@@ -13,27 +13,153 @@ html, body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+p.small {
+  display: none;
+}
 
-
-header.my_name {
-  color: #C70039 ;
+header.my_name  {
   font-family: Lato;
   font-size: 4.5em;
   font-weight: 300;
   display: inline;
+  cursor: default;
+}
+p.d {
+  color: #61bb46;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.d:hover {
+  color: #bbb8bc;
+}
 
-  
-  } 
+p.a {
+  color: #fdb827;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.a:hover {
+  color: #bbb8bc;
+}
+
+p.v {
+  color: #f5821f;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.v:hover {
+  color: #bbb8bc;
+}
+
+p.i {
+  color: #e03a3e;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.i:hover {
+  color: #bbb8bc;
+}
+
+p.d-last {
+  color: #963d97;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.d-last:hover {
+  color: #bbb8bc;
+}
 
   header.my_last_name {
-  color: #C70039 ;
   font-family: Lato;
   font-size: 4em;
   font-weight: 300;
+  display: inline; 
+  cursor: default;
+} 
+p.c {
+  color: #009ddc;
   display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.c:hover {
+  color: #bbb8bc;
+}
 
-  
-  }
+p.i-last {
+  color: #61bb46;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.i-last:hover {
+  color: #bbb8bc;
+}
+
+p.a-last {
+  color: #fdb827;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.a-last:hover {
+  color: #bbb8bc;
+}
+
+p.f {
+  color: #f5821f;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.f:hover {
+  color: #bbb8bc;
+}
+
+p.f-last {
+  color: #e03a3e;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.f-last:hover {
+  color: #bbb8bc;
+}
+
+p.o {
+  color: #963d97;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.o:hover {
+  color: #bbb8bc;
+}
+
+p.n {
+  color: #009ddc;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.n:hover {
+  color: #bbb8bc;
+}
+
+p.i-vary-last {
+  color: #61bb46;
+  display: inline;
+  cursor: default;
+  transition: 400ms;
+}
+p.i-vary-last:hover {
+  color: #bbb8bc;
+}
 
 p.my_info {
 	color: #bbb8bc ; 
@@ -91,5 +217,32 @@ a:active {
   header.my_last_name {
     display: block;
     font-size: 3.5em;
+  }
+   
+} 
+
+@media (max-width: 486px){
+  header.my_name {
+    display: block;
+    font-size: 3.5em;
+  }
+  header.my_last_name {
+    display: block;
+    font-size: 3.5em;
+  }
+  p.my_info {
+    display: block;
+    font-size: 1em;
+  }
+  p.big{
+    display: none;
+  }
+  p.small {
+    display: block;
+  }
+
+  p.contact {
+    display: block;
+    font-size: .5em;
   }
 }
