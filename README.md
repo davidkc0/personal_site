@@ -2,7 +2,7 @@
 
 ---
 
-My Name is David Ciaffoni, Im currently an aspiering developer and designer studying at [**Make School**][make/site] in San Francisco, CA. 
+My Name is David Ciaffoni. Im currently an aspiering developer and designer studying at [**Make School**][make/site] in San Francisco, CA. 
 
 [me/gh]: http://github.com/davidkc0 "GitHub"
 [me/t]: http://twitter.com/davidkc00 "Twitter"
